@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reclamation</title>
+    <!-----google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <!-----font awesome-->
+    <script
+      src="https://kit.fontawesome.com/35eb5f5634.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="rec.css" />
+    <link rel="stylesheet" href="../Accueil.css" />
+  </head>
+  <header>
+    <nav>
+      <a href="../index.html"
+        ><img src="../assets/logo.png" alt="Universite d'alger 1" class="logo"
+      /></a>
+      <div class="navigation">
+        <ul>
+          <li id="emplois-dropdown" class="dropdown">
+            <a href="#" id="emplois-link" class="dropdown-toggle"
+              >Emplois du Temps<i
+                class="fa-solid fa-chevron-down"
+                style="padding-left: 6px"
+              ></i
+            ></a>
+            <ul id="emplois-menu" class="dropdown-menu">
+             
+              <li><a href="../emplois du temps/L1.html">Licence 1</a></li>
+              <li><a href="../emplois du temps/L2.html">Licence 2</a></li>
+              <li><a href="../emplois du temps/L3.html">Licence 3</a></li>
+              <li><a href="../emplois du temps/M1.html">Master 1</a></li>
+              <li><a href="../emplois du temps/M2.html">Master 2</a></li>
+            </ul>
+          </li>
+          <li><a href="PROF.html">Professeurs</a></li>
+          <li><a href="../etudiants/etudiants.html">Etudiants</a></li>
+        </ul>
+        <button><a href="rec.html">RECLAMER</a></button>
+      </div>
+      <button class="ham-menu">
+        <i class="fas fa-bars" style="color: #0f131a"></i>
+        <i class="fas fa-times" style="color: #0f131a; display: none"></i>
+      </button>
+    </nav>
+  </header>
+  <body>
+    <form action="#" method="post">
+      <h2 id="special-label">Réclamation</h2>
+      <h4 style="color: white; text-align: center">
+        Nous repondons a vos besoins avec soin et considerations.
+      </h4>
+
+      <label for="name">Nom et Prenom:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" style="background-color: #e8c872; color: black">
+        Envoyer<i
+          class="fa-solid fa-paper-plane"
+          style="font-size: 14px; padding-left: 6px"
+        ></i>
+      </button>
+    </form>
+    <script src="rec.js"></script>
+  </body>
+  <footer>
+    <div class="footer">
+      <a href="../index.html"
+        ><img src="../assets/logo.png" alt="Universite d'alger 1" class="logo"
+      /></a>
+      <div class="right-f">
+        <div class="socials">
+          <h4>Pages</h4>
+          <a
+            href="https://www.facebook.com/profile.php?id=61555498178600&rdid=sMyEmkrJg7Q3vH9M&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FxiVCx3zqn3cLwcmv"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/school/université-d%27alger/"
+            style="margin-left: 30px"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="links">
+          <ul>
+            <h4>Navigation</h4>
+            <li id="emplois-dropdown" class="dropdown">
+              <a id="emplois-link-footer" class="dropdown-toggle"
+                >Emplois du Temps<i
+                  class="fa-solid fa-chevron-down"
+                  style="padding-left: 6px; font-size: 15px"
+                ></i
+              ></a>
+              <ul id="emplois-menu-footer" class="dropdown-menu-footer">
+                <li><a href="../emplois du temps/L1.html">Licence 1</a></li>
+                <li><a href="../emplois du temps/L2.html">Licence 2</a></li>
+                <li><a href="../emplois du temps/L3.html">Licence 3</a></li>
+                <li><a href="../emplois du temps/M1.html">Master 1</a></li>
+                <li><a href="../emplois du temps/M2.html">Master 2</a></li>
+              </ul>
+            </li>
+            <li><a href="PROF.html">Professeurs</a></li>
+            <li><a href="../etudiants/etudiants.html">Etudiants</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../Accueil.js"></script>
+</html>

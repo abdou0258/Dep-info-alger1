@@ -15,20 +15,50 @@
       src="https://kit.fontawesome.com/35eb5f5634.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="icon" href="assets/favicon.png" />
     <link rel="stylesheet" href="Accueil.css" />
     <title>Departement d'Informatique</title>
   </head>
   <!---------------Header----------->
   <header>
     <nav>
-      <img src="assets/logo.png" alt="Universite d'alger 1" class="logo" />
+      <a href="index.html"
+        ><img src="assets/logo.png" alt="Universite d'alger 1" class="logo"
+      /></a>
+
       <div class="navigation">
         <ul>
-          <li><a href="#">Emplois du Temps</a></li>
-          <li><a href="#">Professeurs</a></li>
-          <li><a href="#">Etudiants</a></li>
+          <li id="emplois-dropdown" class="dropdown">
+            <a id="emplois-link" class="dropdown-toggle"
+              >Emplois du Temps<i
+                class="fa-solid fa-chevron-down"
+                style="padding-left: 6px; font-size: 15px"
+              ></i
+            ></a>
+            <ul id="emplois-menu" class="dropdown-menu">
+              <!-- Dropdown menu items go here -->
+              <li>
+                <a href="emplois du temps/L1.html" target="_blank">Licence 1</a>
+              </li>
+              <li>
+                <a href="emplois du temps/L2.html" target="_blank">Licence 2</a>
+              </li>
+              <li>
+                <a href="emplois du temps/L3.html" target="_blank">Licence 3</a>
+              </li>
+              <li>
+                <a href="emplois du temps/M1.html" target="_blank">Master 1</a>
+              </li>
+              <li>
+                <a href="emplois du temps/M2.html" target="_blank">Master 2</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="professeurs/PROF.html">Professeurs</a></li>
+          <li><a href="etudiants/etudiants.html">Etudiants</a></li>
         </ul>
-        <button><a href="#">RECLAMER</a></button>
+        <button><a href="reclamation/rec.html">RECLAMER</a></button>
       </div>
       <button class="ham-menu">
         <i class="fas fa-bars" style="color: #0f131a"></i>
@@ -61,7 +91,7 @@
             de problèmes.
           </p>
           <button>
-            <a href=""
+            <a href="#emplois-du-temps"
               >En Savoir Plus<i
                 class="fa-solid fa-arrow-down"
                 style="padding-left: 10px; font-size: 16px"
@@ -89,7 +119,7 @@
             de problèmes.
           </p>
           <button>
-            <a href=""
+            <a href="#emplois-du-temps"
               >En Savoir Plus<i
                 class="fa-solid fa-arrow-down"
                 style="padding-left: 10px; font-size: 16px"
@@ -117,7 +147,7 @@
             de problèmes.
           </p>
           <button>
-            <a href=""
+            <a href="#emplois-du-temps"
               >En Savoir Plus<i
                 class="fa-solid fa-arrow-down"
                 style="padding-left: 10px; font-size: 16px"
@@ -136,27 +166,27 @@
 
         <div class="row">
           <div class="col">
-            <a href="">
-              <img src="assets/image 4.jpg" alt="License 1 img" />
-              <h3>License 1</h3>
+            <a href="emplois du temps/L1.html" target="_blank">
+              <img src="assets/image 4.jpg" alt="Licence 1 img" />
+              <h3>Licence 1</h3>
             </a>
           </div>
           <div class="col">
-            <a href="">
-              <img src="assets/image 5.jpg" alt="License 2 img" />
-              <h3>License 2</h3>
+            <a href="emplois du temps/L2.html" target="_blank">
+              <img src="assets/image 5.jpg" alt="Licence 2 img" />
+              <h3>Licence 2</h3>
             </a>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <a href="">
-              <img src="assets/image 6.png" alt="License 3 img" />
-              <h3>License 3</h3>
+            <a href="emplois du temps/L3.html" target="_blank">
+              <img src="assets/image 6.png" alt="Licence 3 img" />
+              <h3>Licence 3</h3>
             </a>
           </div>
           <div class="col">
-            <a href="">
+            <a href="emplois du temps/M1.html" target="_blank">
               <img src="assets/image 7.png" alt="Master 1 img" />
               <h3>Master 1</h3>
             </a>
@@ -164,7 +194,7 @@
         </div>
         <div class="row">
           <div class="col">
-            <a href="">
+            <a href="emplois du temps/M2.html" target="_blank">
               <img src="assets/image 8.jpg" alt="Master 2 img" />
               <h3>Master 2</h3>
             </a>
@@ -192,7 +222,7 @@
           </p>
 
           <button>
-            <a href=""
+            <a href="professeurs/PROF.html"
               >En Savoir Plus<i
                 class="fa-solid fa-arrow-right"
                 style="padding-left: 10px; font-size: 16px"
@@ -206,7 +236,6 @@
       </div>
     </section>
 
-
     <!-----------------------------etudiants------------------------>
     <section id="etud">
       <img src="assets/etud.png" alt="Etudiant" class="etud-img" />
@@ -215,19 +244,19 @@
       <div class="etud">
         <div class="box">
           <img src="assets/zero.png" alt="zero" />
-          <h4>License 1</h4>
+          <h4>Licence 1</h4>
         </div>
 
         <div class="box">
           <img src="assets/one.png" alt="one" />
-          <h4>License 2</h4>
+          <h4>Licence 2</h4>
         </div>
         <div class="box">
           <div>
             <img src="assets/one.png" alt="one" />
             <img src="assets/zero.png" alt="zero" />
           </div>
-          <h4>License 3</h4>
+          <h4>Licence 3</h4>
         </div>
         <div class="box">
           <div>
@@ -246,7 +275,7 @@
         </div>
       </div>
       <button>
-        <a href=""
+        <a href="etudiants/etudiants.html"
           >Consulter
           <i
             class="fa-solid fa-arrow-right"
@@ -282,7 +311,7 @@
             les membres de la communauté informatique. <br />
           </p>
           <button>
-            <a href=""
+            <a href="reclamation/rec.html"
               >Reclamer<i
                 class="fa-solid fa-arrow-right"
                 style="padding-left: 10px; font-size: 16px"
@@ -292,14 +321,12 @@
         </div>
       </div>
     </section>
-
-    <script src="Accueil.js"></script>
   </body>
-  <!-----------------------------Footer------------------------>
-
   <footer>
     <div class="footer">
-      <img src="assets/logo.png" alt="Logo" class="logo" />
+      <a href="index.html"
+        ><img src="assets/logo.png" alt="Universite d'alger 1" class="logo"
+      /></a>
       <div class="right-f">
         <div class="socials">
           <h4>Pages</h4>
@@ -311,12 +338,50 @@
         <div class="links">
           <ul>
             <h4>Navigation</h4>
-            <li><a href="#">Emplois du Temps</a></li>
-            <li><a href="#">Professeurs</a></li>
-            <li><a href="#">Etudiants</a></li>
+            <li id="emplois-dropdown" class="dropdown">
+              <a id="emplois-link-footer" class="dropdown-toggle"
+                >Emplois du Temps<i
+                  class="fa-solid fa-chevron-down"
+                  style="padding-left: 6px; font-size: 15px"
+                ></i
+              ></a>
+              <ul id="emplois-menu-footer" class="dropdown-menu-footer">
+                <!-- Dropdown menu items go here -->
+                <li>
+                  <a href="emplois du temps/L1.html" target="_blank"
+                    >Licence 1</a
+                  >
+                </li>
+                <li>
+                  <a href="emplois du temps/L2.html" target="_blank"
+                    >Licence 2</a
+                  >
+                </li>
+                <li>
+                  <a href="emplois du temps/L3.html" target="_blank"
+                    >Licence 3</a
+                  >
+                </li>
+                <li>
+                  <a href="emplois du temps/M1.html" target="_blank"
+                    >Master 1</a
+                  >
+                </li>
+                <li>
+                  <a href="emplois du temps/M2.html" target="_blank"
+                    >Master 2</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="professeurs/PROF.html">Professeurs</a></li>
+            <li><a href="etudiants/etudiants.html">Etudiants</a></li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
+  <!-----------------------------Footer------------------------>
+
+  <script src="Accueil.js"></script>
 </html>

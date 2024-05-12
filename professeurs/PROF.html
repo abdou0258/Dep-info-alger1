@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Website,Web,frontend,faculty,computer-science">
+        <!-----google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <!-----font awesome-->
+    <script
+      src="https://kit.fontawesome.com/35eb5f5634.js"
+      crossorigin="anonymous"
+    ></script>
+        <title>Professeurs</title>
+        <link rel="icon" href="../assets/favicon.png">
+        <link rel="stylesheet" href="../Accueil.css">
+    </head>
+        <style>
+          
+
+            #liste-prof{
+                height: 100%;
+                background: linear-gradient(180deg, #637a9f,#636a76 );
+                margin: 0;
+                padding-bottom: 30px;
+                
+                
+            }
+            .footer{
+                margin: 0;
+            }
+            nav{
+                height: 90px;
+                display: flex;
+  justify-content: space-between;
+  align-items: center;
+            }
+            table{
+                border-collapse: collapse;
+                width: 85%;
+                margin: 50px auto 0px;
+                
+                
+                background-color: aliceblue;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                font-family: "karla", sans-serif;
+            }
+            td{
+                border: 1px solid black;
+                text-align: center;
+                padding: 5px 10px;
+                font-weight: bold;
+            }
+            table tr:nth-child(odd){
+                background-color: azure;
+            }
+
+            table tr:first-of-type td:first-of-type{
+                border-top-left-radius: 10px;
+            }
+            table tr:first-of-type td:last-of-type{
+                border-top-right-radius: 10px;
+            }
+            table tr:last-of-type td:first-of-type{
+                border-bottom-left-radius: 10px;
+            }
+            table tr:last-of-type td:last-of-type{
+                border-bottom-right-radius: 10px;
+            }
+            table tr td:first-of-type{
+                border-left: none;
+            }
+            table tr:first-of-type td{
+                border-top: none;
+            }
+            table tr td:last-of-type{
+                border-right: none;
+            }
+            table tr:last-of-type td{
+                border-bottom: none;
+            }
+            table tr:first-of-type{
+                background-color: #e8c872;
+                color: #000;
+                font-weight: bolder;
+            }
+            table tr td:nth-of-type(5):not(table tr:first-of-type td:nth-of-type(5)){
+                text-decoration: underline;
+                color: rgba(0, 47, 255, 0.925);
+                cursor: pointer;
+            }
+            h2{
+                color: #ffffff;
+                text-align: center;
+                margin: 0;
+                padding-top: 50px;
+               
+                font-family: "Michroma", sans-serif;
+            }
+        </style>
+    <header>
+        <nav>
+            <a href="../index.html"><img src="../assets/logo.png" alt="Universite d'alger 1" class="logo" /></a>
+          <div class="navigation">
+            <ul>
+                <li id="emplois-dropdown" class="dropdown">
+                    <a href="#" id="emplois-link" class="dropdown-toggle">Emplois du Temps<i class="fa-solid fa-chevron-down" style="padding-left: 6px;"></i></a>
+                    <ul id="emplois-menu" class="dropdown-menu">
+                      
+                      <li><a href="../emplois du temps/L1.html">Licence 1</a></li>
+                      <li><a href="../emplois du temps/L2.html">Licence 2</a></li>
+                      <li><a href="../emplois du temps/L3.html">Licence 3</a></li>
+                      <li><a href="../emplois du temps/M1.html">Master 1</a></li>
+                      <li><a href="../emplois du temps/M2.html">Master 2</a></li>
+                    </ul>
+                  </li>
+              <li><a href="PROF.html">Professeurs</a></li>
+              <li><a href="../etudiants/etudiants.html">Etudiants</a></li>
+            </ul>
+            <button><a href="../reclamation/rec.html">RECLAMER</a></button>
+          </div>
+          <button class="ham-menu">
+            <i class="fas fa-bars" style="color: #0f131a"></i>
+            <i class="fas fa-times" style="color: #0f131a; display: none"></i>
+          </button>
+        </nav>
+      </header>
+    <body>
+        <section id="liste-prof">
+
+            <h2>Liste des Profs</h2>
+            <div class="underline-white"></div>
+            
+            <table id="teachers">
+                <tr class="th">
+                    <td>Nom</td>
+                    <td>niveau</td>
+                    <td>cours</td>
+                    <td>TD , TP</td>
+                    <td>Email</td>
+                    <td>Téléphone</td>
+                </tr>
+                 </tr>
+                <tr>
+                    <td>feraun</td>
+                    <td>L1</td>
+                    <td>A B C D physique</td>
+                    <td>A1 B2 C 1 2 3 4 D2 opm</td>
+                    <td>feraun16@gmail.com</td>
+                    <td>0697835911</td>
+                </tr>
+                <tr>
+                    <td>lounas</td>
+                    <td>L1</td>
+                    <td>A B D proba stat</td>
+                    <td>A1 A3 A4 TD proba stat </td>
+                    <td>yacinehamdine269@gmail.com</td>
+                    <td>0796845911</td>
+                </tr>
+                <tr>
+                    <td>bouderouaz</td>
+                    <td>L1</td>
+                    <td>A asd2</td>
+                    <td>A 1 2 3 4 5 , tp asd2 , A2 tp opm</td>
+                    <td>bouderouaz10@gmail.com</td>
+                    <td>0592375911</td>
+                </tr>
+                <tr>
+                    <td>zairi</td>
+                    <td>L1</td>
+                    <td>A strm2 </td>
+                    <td>A1 2 3 4  td strm2</td>
+                    <td>zairii199@gmail.com</td>
+                    <td>0567845911</td>
+                </tr>
+                <tr>
+                    <td>abdelalim</td>
+                    <td>L1</td>
+                    <td>A algebre2</td>
+                    <td>A 1 2 3 4 5 td algebre2</td>
+                    <td>abdelalimabd09@gmail.com</td>
+                    <td>0670424220</td>
+                </tr>
+                <tr>
+                    <td>kherzi</td>
+                    <td>L1</td>
+                    <td>A opm</td>
+                    <td>A 1 2 3 4 5 tp opm</td>
+                    <td>kherzizi01@gmail.com</td>
+                    <td>0796845911</td>
+    
+                </tr>
+                <tr>
+                    <td>merabet</td>
+                    <td>L1</td>
+                    <td>A tic</td>
+                    <td>///////</td>
+                    <td>merabetter21@gmail.com</td>
+                    <td>0796845911</td>
+    
+                </tr>  
+                 <tr>
+                    <td>Hamdine</td>
+                    <td>L1</td>
+                    <td>A analyse</td>
+                    <td> A 1 2 3 4 5 td analyse</td>
+                    <td>yacinehamdine@gmail.com</td>
+                    <td>0796845911</td>
+                 </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td>niveau</td>
+                    <td>cours</td>
+                    <td>TD , TP</td>
+                    <td>Email</td>
+                    <td>Téléphone</td>
+                 </tr>
+                <tr>
+                    <td>abderrezak</td>
+                    <td>L2</td>
+                    <td>ASD3</td>
+                    <td>A 1 2 3 ASD </td>
+                    <td>abderrezakk16@gmail.com</td>
+                    <td>0697835911</td>
+                </tr>
+                <tr>
+                    <td>boujmil</td>
+                    <td>L2</td>
+                    <td>A logique</td>
+                    <td>A1 A3 A4 TD logique </td>
+                    <td>lbouj100@gmail.com</td>
+                    <td>0796845911</td>
+                </tr>
+                <tr>
+                    <td>hamani</td>
+                    <td>L2</td>
+                    <td>A archi</td>
+                    <td>A 1 2 3 4 5 archi , A2 td tdg</td>
+                    <td>hamanihmed10@gmail.com</td>
+                    <td>0592375911</td>
+                </tr>
+                <tr>
+                    <td>zairi</td>
+                    <td>L2</td>
+                    <td>A tdg </td>
+                    <td>A1 3 4 5  tdg</td>
+                    <td>zairii199@gmail.com</td>
+                    <td>0567845911</td>
+                </tr>
+                <tr>
+                    <td>halfaoui</td>
+                    <td>L2</td>
+                    <td>A si</td>
+                    <td>A 1 2 3 4 5 td si</td>
+                    <td>halfaoui09@gmail.com</td>
+                    <td>0670424220</td>
+                </tr>
+                <tr>
+                    <td>benmeshen</td>
+                    <td>L2</td>
+                    <td>A methodes numerique</td>
+                    <td>A 1 2 3 4 5 tp methodes numerique</td>
+                    <td>benmesheb01@gmail.com</td>
+                    <td>0796845911</td>
+    
+                </tr>
+     
+                  <tr>
+                    <td>Hamdine</td>
+                    <td>L2</td>
+                    <td>A analyse</td>
+                    <td> A 1 2 3 4 5 td analyse</td>
+                    <td>yacinehamdine@gmail.com</td>
+                    <td>0796845911</td>
+                </tr>
+    
+            </table>
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td>niveau</td>
+                    <td>cours</td>
+                    <td>TD , TP</td>
+                    <td>Email</td>
+                    <td>Téléphone</td>
+                 </tr>
+                <tr>
+                    <td>adoune</td>
+                    <td>L3 ISIL</td>
+                    <td>système d'exploitation</td>
+                    <td>TD 1 2 3 4 SE</td>
+                    <td>adoune200@gmail.com</td>
+                    <td>0597835661</td>
+                </tr>
+                <tr>
+                    <td>rahmani</td>
+                    <td>L3 ISIL</td>
+                    <td>sécurité informatique</td>
+                    <td>TD sécurité informatique 1 2 3 4 </td>
+                    <td>rahmanrahmani26@gmail.com</td>
+                    <td>0691145910</td>
+                </tr>
+                <tr>
+                    <td>hamouchene</td>
+                    <td>L3 ISIL</td>
+                    <td>DDS</td>
+                    <td>/////</td>
+                    <td>hamohamouchen15@gmail.com</td>
+                    <td>0792375911</td>
+                </tr>
+                <tr>
+                    <td>belattar</td>
+                    <td>L3 ISIL</td>
+                    <td>recherche d'information</td>
+                    <td>TD RI 1 2 3 4</td>
+                    <td>belattar199@gmail.com</td>
+                    <td>0567845911</td>
+                </tr>
+                <tr>
+                    <td>taibouni</td>
+                    <td>L3 ISIL</td>
+                    <td>/////</td>
+                    <td>TD BI 1 2 3 4</td>
+                    <td>taibouni09@gmail.com</td>
+                    <td>0577424220</td>
+                </tr>
+                <tr>
+                    <td>ilouli</td>
+                    <td>L3 ISIL</td>
+                    <td>/////</td>
+                    <td>TP SE 1 2 3 4</td>
+                    <td>aminailouli21@gmail.com</td>
+                    <td>0796845911</td>
+    
+                </tr>           
+            </table>
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td>niveau</td>
+                    <td>cours</td>
+                    <td>TD , TP</td>
+                    <td>Email</td>
+                    <td>Téléphone</td>
+                 </tr>
+                <tr>
+                    <td>abbas</td>
+                    <td>L3 SI </td>
+                    <td> sécurité informatique</td>
+                    <td> 1 2 3 TD si</td>
+                    <td>abbas167@gmail.com</td>
+                    <td>0723435911</td>
+                </tr>
+                <tr>
+                    <td>ferradj</td>
+                    <td>L3 SI </td>
+                    <td> application mobile</td>
+                    <td> 1 2 3 TP application mobile </td>
+                    <td>ferradj559@gmail.com</td>
+                    <td>0698845911</td>
+                </tr>
+                <tr>
+                    <td>khedach</td>
+                    <td>L3 SI </td>
+                    <td> intelligence artificielle</td>
+                    <td> 1 2 3 tp dds</td>
+                    <td>khedach101@gmail.com</td>
+                    <td>0762275911</td>
+                </tr>
+                <tr>
+                    <td>didiouche</td>
+                    <td>L3 SI</td>
+                    <td> rédaction scientifique </td>
+                    <td>/////</td>
+                    <td>dididouche100@gmail.com</td>
+                    <td>0667845901</td>
+                </tr>
+                <tr>
+                    <td>hadj rabah</td>
+                    <td>L3 SI </td>
+                    <td>/////</td>
+                    <td> 1 2 3 tp IA</td>
+                    <td>abdelalimabd09@gmail.com</td>
+                    <td>0670424220</td>
+                </tr>
+            </table>
+        </section>
+        <script src="prof.js"></script>
+        
+    </body>
+    <footer>
+        <div class="footer">
+          <a href="../index.html"><img src="../assets/logo.png" alt="Universite d'alger 1" class="logo" /></a>
+            <div class="right-f">
+                <div class="socials">
+                    <h4>Pages</h4>
+                    <a href="https://www.facebook.com/profile.php?id=61555498178600&rdid=sMyEmkrJg7Q3vH9M&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FxiVCx3zqn3cLwcmv"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/school/université-d%27alger/" style="margin-left: 30px"
+                    ><i class="fa-brands fa-linkedin"></i
+                        ></a>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <h4>Navigation</h4>
+                            <li id="emplois-dropdown" class="dropdown">
+                                <a id="emplois-link-footer" class="dropdown-toggle">Emplois du Temps<i class="fa-solid fa-chevron-down" style="padding-left: 6px;font-size: 15px;"></i></a>
+                                <ul id="emplois-menu-footer" class="dropdown-menu-footer">
+                                    
+                                  <li><a href="../emplois du temps/L1.html">Licence 1</a></li>
+                                  <li><a href="../emplois du temps/L2.html">Licence 2</a></li>
+                                  <li><a href="../emplois du temps/L3.html">Licence 3</a></li>
+                                  <li><a href="../emplois du temps/M1.html">Master 1</a></li>
+                                  <li><a href="../emplois du temps/M2.html">Master 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="PROF.html">Professeurs</a></li>
+                            <li><a href="../etudiants/etudiants.html">Etudiants</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../Accueil.js"></script>
+</html>

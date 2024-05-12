@@ -1,0 +1,48 @@
+form{
+max-width: 500px;
+margin:50px auto;
+padding: 30px;
+background-color: #637a9f;
+border-radius: 15px
+
+}
+#special-label {
+  color: white;
+  font-size: 45px;
+  font-weight: extra bold;
+  text-align: center;
+
+}
+
+label{
+display: block;
+margin-bottom:5px;
+padding: 10px;
+color:white;
+font-weight: bold;
+font-family: 'karla',sans-serif;
+}
+input, textarea{
+width:100%;
+margin-bottom:5px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 10px;
+outline: 0;
+box-sizing: border-box;
+font-family: 'karla',sans-serif;
+font-size: 16px;
+}
+form button {
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'karla',sans-serif;
+  font-weight: 600;
+  width: 100%;
+}

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="Website,Web,frontend,faculty,computer-science"
+    />
+    <!-----font awesome-->
+    <script
+      src="https://kit.fontawesome.com/35eb5f5634.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-----google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="../Accueil.css" />
+    <title>Emplois des L3</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 0px auto;
+        background-color: aliceblue;
+      }
+      .emplois {
+        background-color: #637a9f;
+        margin: 0;
+        padding-bottom: 30px;
+      }
+      td {
+        border: 2px solid #637a9f;
+        text-align: center;
+      }
+      .rotate-90 {
+        transform: rotate(270deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 80px;
+      }
+      .babahom {
+        text-align: center;
+      }
+      .SI {
+        background-color: rgb(255, 236, 92);
+      }
+      .SE {
+        background-color: rgb(191, 212, 250);
+      }
+      .DSS {
+        background-color: rgb(188, 188, 188);
+      }
+      .RI {
+        background-color: rgb(189, 224, 129);
+      }
+      .BI {
+        background-color: rgb(255, 155, 175);
+      }
+      .RS {
+        background-color: rgb(231, 136, 255);
+      }
+      .AM {
+        background-color: rgb(177, 177, 177);
+      }
+      .IA {
+        background-color: rgb(195, 228, 138);
+      }
+      .CDS {
+        background-color: rgb(176, 174, 255);
+      }
+      .DSS {
+        background-color: aquamarine;
+      }
+      h1,
+      h2 {
+        text-align: center;
+        font-size: xx-large;
+        font-family: "Michroma", sans-serif;
+        color: #e8c872;
+      }
+      h2 {
+        margin-top: 80px;
+      }
+      h1 {
+        padding-top: 30px;
+        margin-top: 0;
+      }
+      td {
+        font-size: 12px;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <header>
+    <nav>
+      <a href="../index.html"
+        ><img src="../assets/logo.png" alt="Universite d'alger 1" class="logo"
+      /></a>
+      <div class="navigation">
+        <ul>
+          <li id="emplois-dropdown" class="dropdown">
+            <a id="emplois-link" class="dropdown-toggle"
+              >Emplois du Temps<i
+                class="fa-solid fa-chevron-down"
+                style="padding-left: 6px; font-size: 15px"
+              ></i
+            ></a>
+            <ul id="emplois-menu" class="dropdown-menu">
+              
+              <li><a href="L1.html" target="_blank">Licence 1</a></li>
+              <li><a href="L2.html" target="_blank">Licence 2</a></li>
+              <li><a href="L3.html" target="_blank">Licence 3</a></li>
+              <li><a href="M1.html" target="_blank">Master 1</a></li>
+              <li><a href="M2.html" target="_blank">Master 2</a></li>
+            </ul>
+          </li>
+          <li><a href="../professeurs/PROF.html">Professeurs</a></li>
+          <li><a href="../etudiants/etudiants.html">Etudiants</a></li>
+        </ul>
+        <button><a href="../reclamation/rec.html">RECLAMER</a></button>
+      </div>
+      <button class="ham-menu">
+        <i class="fas fa-bars" style="color: #0f131a"></i>
+        <i class="fas fa-times" style="color: #0f131a; display: none"></i>
+      </button>
+    </nav>
+  </header>
+  <body>
+    <section class="emplois">
+      <h1>Licence 3</h1>
+      <div class="underline" style="background-color: #e8c872"></div>
+      <h2>ISIL</h2>
+      <table>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="2">L3 informatique ISIL</td>
+          <td colspan="2">semestre 6</td>
+          <td colspan="2">2023/2024</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Gr</td>
+          <td>08h00 09h30</td>
+          <td>09h40 11h10</td>
+          <td>11h20 12h50</td>
+          <td>13h00 14h30</td>
+          <td>14h40 16h00</td>
+          <td>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 16h10 17h25 &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="babahom">
+            <span class="rotate-90">Samedi</span>
+          </td>
+          <td>1</td>
+          <td class="SI">TD-SécuInfo -Salle 3- Mr Rahmani</td>
+          <td class="SE">TD-SE2 -salle cour 3ème- Siouane</td>
+          <td class="DSS">TP-DSS -Labo 4- Mme kheddache</td>
+          <td>&nbsp;</td>
+          <td class="RI">TD-RI -Salle 4 snv- Belattar</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="SE">TD-SE2 -salle cour 3ème- Siouane</td>
+          <td class="SI">TD-SécuInfo -Salle 3- Mr Rahmani</td>
+          <td class="RI">TD-RI -Salle 4 snv- Belattar</td>
+          <td>&nbsp;</td>
+          <td class="DSS">TP-DSS -Labo 4- Mme kheddache</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="DSS">TP-DSS -Labo 4- Mme kheddache</td>
+          <td class="RI">TD-RI -Salle 4 snv- Belattar</td>
+          <td class="SI">TD-SécuInfo -Salle 3- Mr Rahmani</td>
+          <td class="SE">TP-SE2 -salle 6- Mme Mme ilouli</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="RI">TD-RI -Salle 4 snv- Belattar</td>
+          <td class="DSS">TP-DSS -Labo 4- Mme kheddache</td>
+          <td>&nbsp;</td>
+          <td class="SI">TD-SécuInfo -Salle 3- Mr Rahmani</td>
+          <td class="SE">TP-SE2 -salle 6- Mme Mme ilouli</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="babahom">
+            <span class="rotate-90">Dimanche</span>
+          </td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="babahom">
+            <span class="rotate-90">Lundi</span>
+          </td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td rowspan="4" class="RS">
+            Rédaction Scientifique <br />-Amphi geologie- <br />Mme DIDOUCHE
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="BI">TD-BI -Salle 4 snv- Mme Taibouni</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>&nbsp;</td>
+          <td class="BI">TD-BI -Salle 4 snv- Mme Taibouni</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="babahom">
+            <span class="rotate-90">Mardi</span>
+          </td>
+          <td>1</td>
+          <td rowspan="4" class="RI">
+            Recherche d'information <br />-Amphi Benbadis- <br />Mme Belattar
+          </td>
+          <td class="BI">TD -BI -Salle 3- Mme Taibouni</td>
+          <td class="SE">TP-SE2 -Labo 4- Mme ilouli</td>
+          <td rowspan="4" class="SE">
+            Système d'exploitation 2 <br />-Amphi Benbadis- Mr Adouane
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="SE">TP-SE2 -Labo 4- Mme ilouli</td>
+          <td class="BI">TD -BI -Salle 3- Mme Taibouni</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="SE">TD-SE2 -salle cours 3ème- Mr Adouane</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>&nbsp;</td>
+          <td class="SE">TD-SE2 -Salle 31- Mr Adouane</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="babahom">
+            <span class="rotate-90">Mercredi</span>
+          </td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="babahom">
+            <span class="rotate-90">Jeudi</span>
+          </td>
+          <td>1</td>
+          <td rowspan="4" class="DSS">
+            DSS -Amphi Benbadis- <br />Mr Hamouchene
+          </td>
+          <td rowspan="4" class="SI">
+            Sécurité informatique <br />-Amphi Bbenbadis- Mr Rahmani
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      <h2>SI</h2>
+      <table>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="2">L3 informatique SI</td>
+          <td colspan="2">semestre 6</td>
+          <td colspan="2">2023/2024</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Gr</td>
+          <td>08h00 09h30</td>
+          <td>09h40 11h10</td>
+          <td>11h20 12h50</td>
+          <td>13h00 14h30</td>
+          <td>14h40 16h00</td>
+          <td>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 16h10 17h25 &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="3" class="babahom">
+            <span class="rotate-90">Samedi</span>
+          </td>
+          <td>1</td>
+          <td rowspan="3" class="SI">
+            Sécurité informatique <br />-Amphi science B- Mr Abbas
+          </td>
+          <td class="SI">TD-SI -Amphi science B- Mr Abbas</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td class="SI">TD-SI -Amphi science B- Mr Abbas</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="SI">TD-SI -Amphi science B- Mr Abbas</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="3" class="babahom">
+            <span class="rotate-90">Dimanche</span>
+          </td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td class="IA">TP-IA -Labo 2- hadj rabah</td>
+          <td class="AM">TP-AppMobile -Labo4- Ferradj</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="AM">TP-AppMobile -Labo 4- Ferradj</td>
+          <td>&nbsp;</td>
+          <td class="IA">TP-IA -Labo 2- hadj rabah</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="IA">TP-IA -Labo 2- hadj rabah</td>
+          <td class="AM">TP-AppMobile -Labo 4- Ferradj</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="3" class="babahom">
+            <span class="rotate-90">Lundi <br />(Distanciel)</span>
+          </td>
+          <td>1</td>
+          <td rowspan="3" class="IA">
+            Intelligence Artificielle <br />-Amphi Hygiene- Mme Kheddache
+          </td>
+          <td rowspan="3" class="AM">
+            Application Mobile <br />-Amphi geologie- Ferradj
+          </td>
+          <td rowspan="3" class="RS">
+            Rédaction Scientifique <br />-Amphi geologie- Mme DIDOUCHE
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="3" class="babahom">
+            <span class="rotate-90">Mardi</span>
+          </td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="3" class="babahom">
+            <span class="rotate-90">Mercredi</span>
+          </td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td rowspan="3" class="CDS">
+            Créer et développer une startup <br />-Mr Chibani- (Distanciel)
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="3" class="babahom">
+            <span class="rotate-90">Jeudi</span>
+          </td>
+          <td>1</td>
+          <td rowspan="3" class="DSS">DSS -Amphi A- <br />Mr Hamouchene</td>
+          <td>&nbsp;</td>
+          <td class="DSS">TP-DSS -Labo 6- Mme kheddche</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="DSS">TP-DSS -Labo 6- Mme kheddche</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="DSS">TP-DSS -Labo 6- Mme kheddche</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+  <footer>
+    <div class="footer">
+      <a href="../index.html"
+        ><img src="../assets/logo.png" alt="Universite d'alger 1" class="logo"
+      /></a>
+      <div class="right-f">
+        <div class="socials">
+          <h4>Pages</h4>
+          <a
+            href="https://www.facebook.com/profile.php?id=61555498178600&rdid=sMyEmkrJg7Q3vH9M&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FxiVCx3zqn3cLwcmv"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/school/université-d%27alger/"
+            style="margin-left: 30px"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="links">
+          <ul>
+            <h4>Navigation</h4>
+            <li id="emplois-dropdown" class="dropdown">
+              <a id="emplois-link-footer" class="dropdown-toggle"
+                >Emplois du Temps<i
+                  class="fa-solid fa-chevron-down"
+                  style="padding-left: 6px; font-size: 15px"
+                ></i
+              ></a>
+              <ul id="emplois-menu-footer" class="dropdown-menu-footer">
+                <li><a href="L1.html" target="_blank">Licence 1</a></li>
+                <li><a href="L2.html" target="_blank">Licence 2</a></li>
+                <li><a href="L3.html" target="_blank">Licence 3</a></li>
+                <li><a href="M1.html" target="_blank">Master 1</a></li>
+                <li><a href="M2.html" target="_blank">Master 2</a></li>
+              </ul>
+            </li>
+            <li><a href="../professeurs/PROF.html">Professeurs</a></li>
+            <li><a href="../etudiants/etudiants.html">Etudiants</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../Accueil.js"></script>
+</html>

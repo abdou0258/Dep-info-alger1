@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="Website,Web,frontend,faculty,computer-science"
+    />
+    <!-----font awesome-->
+    <script
+      src="https://kit.fontawesome.com/35eb5f5634.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-----google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="../Accueil.css" />
+    <title>Emplois des M1</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 0px auto;
+        background-color: aliceblue;
+      }
+      .emplois {
+        background-color: #637a9f;
+        margin: 0;
+        padding-bottom: 30px;
+      }
+      td {
+        border: 2px solid #637a9f;
+        text-align: center;
+      }
+      .rotate-90 {
+        transform: rotate(270deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 80px;
+      }
+      .babahom {
+        text-align: center;
+      }
+      .SI {
+        background-color: rgb(191, 232, 183);
+      }
+      .SIM {
+        background-color: rgb(205, 222, 255);
+      }
+      .OP {
+        background-color: rgb(255, 247, 210);
+      }
+      .DWO {
+        background-color: rgb(255, 132, 157);
+      }
+      .DM {
+        background-color: rgb(255, 221, 0);
+      }
+      .AN {
+        background-color: rgb(138, 219, 222);
+      }
+      .CI {
+        background-color: rgb(230, 147, 239);
+      }
+      .EX {
+        background-color: rgb(255, 181, 92);
+      }
+      .PM {
+        background-color: aquamarine;
+      }
+      .CED {
+        background-color: yellow;
+      }
+      .MM {
+        background-color: rgb(255, 210, 95);
+      }
+      .AB {
+        background-color: rgb(204, 250, 204);
+      }
+      .MEPS {
+        background-color: rgb(232, 185, 255);
+      }
+      .VA {
+        background-color: rgb(255, 149, 232);
+      }
+      .OPT {
+        background-color: rgb(222, 200, 173);
+      }
+      .WEB {
+        background-color: rgb(188, 188, 188);
+      }
+      .DaM {
+        background-color: rgb(209, 236, 245);
+      }
+      .ADO {
+        background-color: rgb(245, 105, 105);
+      }
+      .CG {
+        background-color: aqua;
+      }
+      .EDD {
+        background-color: rgb(39, 228, 165);
+      }
+      .R {
+        background-color: rgb(168, 253, 230);
+      }
+      .SC {
+        background-color: rgb(223, 221, 176);
+      }
+      .BDDR {
+        background-color: yellow;
+      }
+      .SDR {
+        background-color: rgb(217, 175, 238);
+      }
+      .MAN {
+        background-color: rgb(110, 163, 197);
+      }
+      .SD {
+        background-color: rgb(208, 240, 249);
+      }
+      .AT {
+        background-color: white;
+      }
+      .IOT {
+        background-color: rgb(255, 195, 122);
+      }
+      td {
+        font-size: 12px;
+        font-weight: 500;
+      }
+      h1,
+      h2 {
+        text-align: center;
+        font-size: xx-large;
+        font-family: "Michroma", sans-serif;
+        color: #e8c872;
+      }
+      h2 {
+        margin-top: 80px;
+      }
+      h1 {
+        padding-top: 30px;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <header>
+    <nav>
+      <a href="../index.html"
+        ><img src="../assets/logo.png" alt="Universite d'alger 1" class="logo"
+      /></a>
+      <div class="navigation">
+        <ul>
+          <li id="emplois-dropdown" class="dropdown">
+            <a id="emplois-link" class="dropdown-toggle"
+              >Emplois du Temps<i
+                class="fa-solid fa-chevron-down"
+                style="padding-left: 6px; font-size: 15px"
+              ></i
+            ></a>
+            <ul id="emplois-menu" class="dropdown-menu">
+              
+              <li><a href="L1.html" target="_blank">Licence 1</a></li>
+              <li><a href="L2.html" target="_blank">Licence 2</a></li>
+              <li><a href="L3.html" target="_blank">Licence 3</a></li>
+              <li><a href="M1.html" target="_blank">Master 1</a></li>
+              <li><a href="M2.html" target="_blank">Master 2</a></li>
+            </ul>
+          </li>
+          <li><a href="../professeurs/PROF.html">Professeurs</a></li>
+          <li><a href="../etudiants/etudiants.html">Etudiants</a></li>
+        </ul>
+        <button><a href="../reclamation/rec.html">RECLAMER</a></button>
+      </div>
+      <button class="ham-menu">
+        <i class="fas fa-bars" style="color: #0f131a"></i>
+        <i class="fas fa-times" style="color: #0f131a; display: none"></i>
+      </button>
+    </nav>
+  </header>
+  <body>
+    <section class="emplois">
+      <h1>MASTER 1</h1>
+      <div class="underline" style="background-color: #e8c872"></div>
+      <h2>ASD</h2>
+      <table>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="2">Informatique M1 ASD</td>
+          <td colspan="2">semestre 1</td>
+          <td colspan="2">2023/2024</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Gr</td>
+          <td>08h00 09h30</td>
+          <td>09h40 11h10</td>
+          <td>11h20 12h50</td>
+          <td>13h00 14h30</td>
+          <td>14h40 16h00</td>
+          <td>16h10 17h25</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Samedi</span></td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Dimanche</span></td>
+          <td>1</td>
+          <td class="SI">
+            Statistique Inférentielle <br />-Salle cours 3ème- Mr Bachari
+          </td>
+          <td class="SI">
+            TD-Statistique Inférentielle <br />-Salle cours 3ème- Mr Bachari
+          </td>
+          <td class="SIM">
+            TP-Simulation pour <br />les systèmes complexes <br />-Labo 1- Mr
+            Benghalia
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Lundi</span></td>
+          <td>1</td>
+          <td class="OP">Optimisation -Amphi geologie- ghoul</td>
+          <td class="OP">TD-Optimisation -Salle cours 3ème- ghoul</td>
+          <td class="OP">TP-Optimisation -Labo 6- ghoul</td>
+          <td class="DWO">
+            Data wearhouse et olap <br />-Amphi Hygiene- Mme Menai
+          </td>
+          <td class="DWO">
+            TP-Data wearhouse et olap <br />-labo 06- Mme Menai
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Mardi</span></td>
+          <td>1</td>
+          <td class="SIM">
+            Simulation pour les systèmes complexes <br />-Salle 4 snv- Mr
+            Benghalia
+          </td>
+          <td class="DM">TP-Data Mining -Labo 1-<br />Mme Belattar</td>
+          <td class="DM">Data Mining -Amphi hygiene-<br />Mme Belattar</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Mercredi</span></td>
+          <td>1</td>
+          <td class="AN">Anglais -Hamdini- (Distanciel)</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Jeudi</span></td>
+          <td>1</td>
+          <td class="CI">TP-Calcul Intensif -Labo 2- <br />Mr Banhadid</td>
+          <td class="CI">Calcul Intensif -Labo2- <br />Mr Benhadid</td>
+          <td class="EX">
+            Extraction d'Information <br />-Salle cours 3ème- <br />Mme Souami
+          </td>
+          <td class="EX">
+            TP-Extraction d'Information <br />-Labo 6- Mme Souami
+          </td>
+          <td class="PM">
+            Principes et Méthodes <br />Bases de Données Réparties <br />-Amphi
+            hygiene- Readna
+          </td>
+          <td class="PM">
+            TP-Principes et Méthodes <br />Bases de Données Réparties -Labo 3-
+            <br />Remadna
+          </td>
+        </tr>
+      </table>
+      <h2>ISII</h2>
+      <table>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="2">informatique M1 ISII</td>
+          <td colspan="2">semestre 1</td>
+          <td colspan="2">2023/2024</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Gr</td>
+          <td>08h00 09h30</td>
+          <td>09h40 11h10</td>
+          <td>11h20 12h50</td>
+          <td>13h00 14h30</td>
+          <td>14h40 16h00</td>
+          <td>16h10 17h25</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="babahom">
+            <span class="rotate-90">Samedi <br />(Distanciel)</span>
+          </td>
+          <td>1</td>
+          <td rowspan="2" class="CED">
+            Culture entreprise/ <br />Déontologie de travail <br />-Mr Chibani-
+          </td>
+          <td rowspan="2" class="MM">
+            TP-Multimédia <br />
+            -M.Hamouchene-
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td rowspan="2" class="AB">
+            Anglais de base <br />-Mr Hamdini-(distanciel)
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="babahom">
+            <span class="rotate-90">Dimanche</span>
+          </td>
+          <td>1</td>
+          <td rowspan="2" class="MEPS">
+            MEPS -Amphi geologie- <br />Mme Gharbi
+          </td>
+          <td rowspan="2" class="VA">
+            Vision artificielle <br />-Amphi geologie- <br />Mr Benhadid
+          </td>
+          <td class="MEPS">TD-MEPS -salle 6- Mme Gharbi</td>
+          <td class="VA">TP-VA -Labo 2- Mr Benhadid</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="VA">TP-Vision artificielle -Labo 2- Mr Benhadid</td>
+          <td class="MEPS">TD-MEPS -salle 6- Mme Gharbi</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="babahom">
+            <span class="rotate-90">Lundi</span>
+          </td>
+          <td>1</td>
+          <td rowspan="2" class="OP">
+            Optimisation <br />-Amphi geologie- ghoul
+          </td>
+          <td class="WEB">TP-Web J2EE -Labo 2- Mme Guesmia</td>
+          <td rowspan="2" class="WEB">
+            Architecture Web J2EE <br />-Amphi geologie- Mme Guesmia
+          </td>
+          <td class="DaM">TP-Data Mining -Labo 4- M.Boufenar</td>
+          <td rowspan="2" class="DaM">
+            Data Mining <br />-Amphi Geologie- M.Boufenar
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="DaM">TP-Data Mining -Labo 4- M.Boufenar</td>
+          <td class="WEB">TP-Web J2EE -Labo 2- Mme Guesmia</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="babahom">
+            <span class="rotate-90">Mardi</span>
+          </td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td rowspan="2" class="ADO">
+            Architecture des ordinateurs <br />-salle cour 3eme- Madjoudj
+          </td>
+          <td rowspan="2" class="ADO">
+            TP-Architecture des ordinateurs <br />-salle cour 3eme-
+            <br />Madjoudj(hybrid)
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="babahom">
+            <span class="rotate-90">Mercredi</span>
+          </td>
+          <td>1</td>
+          <td rowspan="2" class="CG">
+            Cryptographie <br />-Amphi Hygiene- <br />Mme Guesmia
+          </td>
+          <td class="CG">TP-Cryptographie -Labo 2- Mme Guesmia</td>
+          <td class="EDD">TP-EdD -Labo5- Mme Souami</td>
+          <td rowspan="2" class="CG">
+            TD-Cryptographie <br />-salle cour 3 eme- <br />Mme Guesmia
+          </td>
+          <td rowspan="2" class="EDD">
+            Entrepôt de Données <br />-Amphi Hygiene- <br />Mme Souami
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="EDD">TP-EdD -Labo5- Mme Souami</td>
+          <td class="CG">TP-Cryptographie -Labo 2- Mme Guesmia</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="babahom">
+            <span class="rotate-90">Jeudi</span>
+          </td>
+          <td>1</td>
+          <td class="OPT">TD-optimisation -salle 1- ghoul</td>
+          <td>&nbsp;</td>
+          <td rowspan="2" class="MM">
+            Bases de Données Avancées <br />-Amphi hygiene- <br />M.Hamouchene
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>&nbsp;</td>
+          <td class="OPT">TD-optimisation -salle 2- ghoul</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      <h2>RSE:</h2>
+      <table>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="2">informatique M1 RSE</td>
+          <td colspan="2">semestre 1</td>
+          <td colspan="2">2023/2024</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Gr</td>
+          <td>08h00 09h30</td>
+          <td>09h40 11h10</td>
+          <td>11h20 12h50</td>
+          <td>13h00 14h30</td>
+          <td>14h40 16h00</td>
+          <td>16h10 17h25</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Samedi</span></td>
+          <td>1</td>
+          <td class="AT">
+            Anglais Technique2 <br />-Amphi Hygiène- <br />Mr hamdini
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="IOT">
+            Internet des Objets (IoT) <br />et Frameworks <br />-Amphi Hygiène-
+            Mr Abbas
+          </td>
+          <td class="IOT">TP-IoT et Frameworks <br />-Labo 2- Mr Abbas</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Dimanche</span></td>
+          <td>1</td>
+          <td class="R">
+            TP-Réseaux Mobiles et Réseaux sans Fil2 <br />-Mr Adouane-
+            (distanciel)
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Lundi</span></td>
+          <td>1</td>
+          <td class="SC">
+            TD-Systèmes Complexes -salle cour 3eme- <br />Mme Mezzoudj
+          </td>
+          <td class="SC">
+            Systèmes Complexes -Amphi Hygiène- <br />Mme Mezzoudj
+          </td>
+          <td class="SC">
+            TP-Systèmes Complexes <br />-Labo1- <br />Mme Mezzoudj
+          </td>
+          <td class="MAN">
+            Management de projet avancé <br />-Amphi geologie- <br />Mr
+            Boulahrik
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Mardi</span></td>
+          <td>1</td>
+          <td class="R">
+            Réseaux Mobiles et Réseaux sans Fil2 <br />-salle 3- M.Adouane
+          </td>
+          <td class="BDDR">
+            Bases de Données Réseaux <br />-Amphi Hygiène- Moumen
+          </td>
+          <td class="BDDR">
+            TP-Bases de Données Réseaux <br />-labo 2- Moumen
+          </td>
+          <td class="SDR">
+            Sécurité des réseaux <br />-Amphi Hygiène- <br />Mr Rahmani
+          </td>
+          <td class="SDR">TP-Sécurité des réseaux <br />-labo2- Mr Rahmani</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Mercredi</span></td>
+          <td>1</td>
+          <td class="SD">TP-Systèmes Distribués -Labo 6- <br />Mme Halfaoui</td>
+          <td class="SD">
+            Systèmes Distribués -Amphi Hygiène- <br />Mme Halfaoui
+          </td>
+          <td class="SD">
+            TD-Systèmes Distribués <br />-Amphi Hygiène- <br />Mme Halfaoui
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="babahom"><span class="rotate-90">Jeudi</span></td>
+          <td>1</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+  <footer>
+    <div class="footer">
+      <a href="../index.html"
+        ><img src="../assets/logo.png" alt="Universite d'alger 1" class="logo"
+      /></a>
+      <div class="right-f">
+        <div class="socials">
+          <h4>Pages</h4>
+          <a
+            href="https://www.facebook.com/profile.php?id=61555498178600&rdid=sMyEmkrJg7Q3vH9M&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FxiVCx3zqn3cLwcmv"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/school/université-d%27alger/"
+            style="margin-left: 30px"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="links">
+          <ul>
+            <h4>Navigation</h4>
+            <li id="emplois-dropdown" class="dropdown">
+              <a id="emplois-link-footer" class="dropdown-toggle"
+                >Emplois du Temps<i
+                  class="fa-solid fa-chevron-down"
+                  style="padding-left: 6px; font-size: 15px"
+                ></i
+              ></a>
+              <ul id="emplois-menu-footer" class="dropdown-menu-footer">
+                <li><a href="L1.html" target="_blank">Licence 1</a></li>
+                <li><a href="L2.html" target="_blank">Licence 2</a></li>
+                <li><a href="L3.html" target="_blank">Licence 3</a></li>
+                <li><a href="M1.html" target="_blank">Master 1</a></li>
+                <li><a href="M2.html" target="_blank">Master 2</a></li>
+              </ul>
+            </li>
+            <li><a href="../professeurs/PROF.html">Professeurs</a></li>
+            <li><a href="../etudiants/etudiants.html">Etudiants</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../Accueil.js"></script>
+</html>
